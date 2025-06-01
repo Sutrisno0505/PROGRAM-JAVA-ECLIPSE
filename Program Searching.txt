@@ -1,0 +1,28 @@
+package seacrhing;
+import java.util.*;
+public class Squential {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int [] angka={20,25,18,28,15};
+int a,cari;
+for(a=0;a<=angka.length-1;a++)
+	System.out.print(angka[a]+" ");
+Scanner bisa=new Scanner(System.in);
+System.out.print("\n masukkan data yang dicari:");
+cari=bisa.nextInt();
+for (a=0;a<=angka.length-1;a++)
+{
+	if(cari==angka[a])
+	{System.out.print("\n data ditemukan pada index ke:"+a);
+	break;}}
+if(a>=angka.length)
+{
+	System.out.print("\n Data Tidak  Ditemukan:");
+}
+	}
+
+	}
+
+
+
